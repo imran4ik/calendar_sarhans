@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-link {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+align-items: center;
+letter-spacing: 0.25px;
+font-size: 20px;
+color: black;
+margin-left: 20px;
+}
+
+.circle-grey {
+    background: #E6E5E6;
+    left: calc(50% - 256px/2);
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.card {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.start h2 {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 138px;
+    left: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 132%;
+}
+
+.start ul li {
+    list-style-type: none;
+    display: inline;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #9C9C9C;
+    margin-left: 5px;
+}
+.start ul {
+    margin-top: 50px;
+}
+
+.start ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.little-circl {
+    background: #E6E5E6;
+    left: calc(50% - 256px/2);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.statistics {
+    margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        background: white;
+}
+
+.panel {
+    border-radius: 6px;
+    border: 2px solid #d2d1d1;
+  }
+
+  .panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.881);
+  }
+   
+  .title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 132%;
+    margin-top: 43px;
+    margin-left: 10px;
+    color: #333333;
+  }
+
+.statisticks-img img {
+  position: absolute;
+  margin: 200px;
+  width: 600px;
+  height: 200px;
+}
+   
+  .calendar-views h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .calendar-views{
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    margin-top: 48px;
+    padding: 5px 14px;
+    border: 2px solid #d2d1d1;
+  }
+
+  .panel-body {
+    display: flex;
+    height: 396px;
+    width: 860px;
+  }
+
+  .categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 25%;
+    padding: 49px 0px 235px 40px;
+  }
+  .category {
+    display: flex;
+    flex-direction: column;
+  }
+  .category span {
+   font-weight: 300;
+    font-size: 10px;
+    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.881);
+    margin-bottom: 30px;
+  } 
+  .category span {
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(109, 108, 108);
+  }
+
+  .panel-body ul {
+    margin-top: 350px;
+  }
+
+  .panel-body ul li {
+    margin-right: 50px;
+  }
+
+.statistics-texts{
+  margin-top: 15px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  padding-bottom: 50px;
+}
+
+.statistics-texts h4 {
+  color: #9C9C9C;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.4px;
+}
+
+.statistics-texts h5 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 132%;
+display: flex;
+align-items: center;
+color: #333333;
+}
+
+.statistics-texts span {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 2px;
+width: 5px;
+  border: 3px solid #4AAF05;
+  background-color: #4AAF05;
+}
+
+.statistics-texts h6 {
+  position: absolute;
+  margin-left: 15px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 16px;
+align-items: center;
+letter-spacing: 0.4px;
+color: #4AAF05;
+}
+
+.calendar-border {
+  position: relative;
+  border: 2px solid #d2d1d1;
+  margin-left: 0;
+  margin-top: 50px;
+  border-radius: 5px;
+  height: 650px;
+  width: 515px;
+}
+
+#calendar{
+  position: absolute;
+  padding-left: 15px;
+    margin-left: 0;
+    margin-top: 50px;
+    width: 320px;
+    font-family: 'Lato', sans-serif;
+    }
+    #calendar_weekdays div{
+    display:inline-block;
+    vertical-align:top;
+    }
+    #calendar_content, #calendar_weekdays, #calendar_header{
+    position: relative;
+    width: 320px;
+    overflow: hidden;
+    float: left;
+    z-index: 10;
+    }
+    #calendar_weekdays div, #calendar_content div{
+    width:40px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    color: #787878;
+    }
+    #calendar_content{
+    -webkit-border-radius: 0px 0px 12px 12px;
+    -moz-border-radius: 0px 0px 12px 12px;
+    border-radius: 0px 0px 12px 12px;
+    }
+    #calendar_content div{
+    float: left;
+    }
+    #calendar_content div:hover{
+    background-color: #F8F8F8;
+    }
+    #calendar_content div.blank{
+    background-color: #E8E8E8;
+    }
+    #calendar_header, #calendar_content div.today{
+    zoom: 1;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    }
+    #calendar_content div.today{
+    color: #FFFFFF;
+    }
+    #calendar_header{
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    background-color: white;
+    padding: 18px 0;
+    -webkit-border-radius: 12px 12px 0px 0px;
+    -moz-border-radius: 12px 12px 0px 0px;
+    border-radius: 12px 12px 0px 0px;
+    }
+    #calendar_header h1{
+    font-size: 1.5em;
+    color: #FFFFFF;
+    float:left;
+    width:70%;
+    }
+    i[class^=icon-chevron]{
+    color: #FFFFFF;
+    float: left;
+    width:15%;
+    border-radius: 50%;
+    }
+
+button {
+  margin-left: 105px;
+  background-color: #4AAF05;
+}
+
+.list-group-item {
+  margin-top: 40px;
+}
+
+.list {
+    margin-left: 100px;
+    height: 650px;
+}
+
+.horizontal-container {
+  background-color: #f3f2f2;
+  margin-top: 25px;
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.horizontal-list {
+  display: inline;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-right: 116px;
+  align-items: center;
+letter-spacing: 0.25px;
+color: #333333;
+}
+
+ul span {
+  margin-left: 105px;
+align-items: center;
+letter-spacing: 0.25px;
+color: #333333;
+}
+
+body {
+  height: 1500px;
+}
